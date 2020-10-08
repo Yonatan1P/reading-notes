@@ -1,0 +1,27 @@
+# Reading Notes 04: CSS Grid
+  use display:grid the same as flexbox
+    you can use negative numbers to start on a certain column and move left
+    a better system for organizing the page using a grid layout
+  grid-template lets you write out the template for your grid
+  span is a command for the number of columns that the element should span from the start
+  grid-column-start: lets you start the elements in a certain column
+  grid-column-end: lets you end the elements in a certain column
+  grid-column: 1/6 allows you to combine grid-column-start with end and input the start and end positions together
+  All the grid column rules can also be applied to the rows
+  Use columns together with rows to specify a particular grid section
+  grid-area: lets you put in all the coordinates at once
+    grid-row-start, grid-column start, grid-row-end, grid-column-end
+    this is the order of the grid columns
+  you can overlap multiple items if they are the same item with no problem
+  items that are not specified to have a position are distributed based on order in the source code
+    order: changes the order of  the elements being displayed
+    similar to a z-index
+    this order can also be a negative number
+  you can change the value of each column width by changing the grid-template
+  you can also repeat columns or rows if you want to keep reusing them
+    grid-template-column: repeat(8,12.5%)
+  you can set the thickness using %, or px, or em 
+    fr: but you can also use fractions
+    and you can combine any of these thickness units
+    you can apply these thicknesses to both the columns and the rows
+    
