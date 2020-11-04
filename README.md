@@ -7,3 +7,4 @@ making a new reading-notes repository because the other one will not let me do m
 ## Code 301 - Intermediate Software Development
   all the reading notes for 
 ## Code 401 - Advanced Software Development
+  Python
